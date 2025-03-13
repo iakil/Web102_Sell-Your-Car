@@ -1,0 +1,6 @@
+sapText = String.Join(Environment.NewLine, sapText.Split({Environment.NewLine}, StringSplitOptions.RemoveEmptyEntries).Skip(2))
+
+sapLines = sapText.Split({Environment.NewLine}, StringSplitOptions.RemoveEmptyEntries).Select(Function(line) line.Trim()).ToArray()
+
+sapText = String.Join(Environment.NewLine, sapLines).Replace(vbTab, ",")
+sapText = System.Text.RegularExpressions.Regex.Replace(sapText, "\s{2,}", ",")
