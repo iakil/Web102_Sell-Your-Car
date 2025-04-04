@@ -1,6 +1,27 @@
-sapText = String.Join(Environment.NewLine, sapText.Split({Environment.NewLine}, StringSplitOptions.RemoveEmptyEntries).Skip(2))
+1. Provide Timely and Accurate Data Products – Outstanding
 
-sapLines = sapText.Split({Environment.NewLine}, StringSplitOptions.RemoveEmptyEntries).Select(Function(line) line.Trim()).ToArray()
+Throughout the year, I consistently delivered high-quality data products, including QN, PQDR, and SDR reports, tailored to customer needs with timeliness and precision. I proactively filled in for colleagues during critical absences, independently initiating the QA report and a prerequisite report that supports multiple downstream processes — ensuring continuity of operations without disruption. My quick, independent action in recognizing gaps and stepping in exemplifies reliability and initiative. These efforts have earned recognition at the leadership level, including a coin from the Deputy Commander for impactful contributions to the DLA mission.
 
-sapText = String.Join(Environment.NewLine, sapLines).Replace(vbTab, ",")
-sapText = System.Text.RegularExpressions.Regex.Replace(sapText, "\s{2,}", ",")
+⸻
+
+2. Analyze and Summarize Data Results – Outstanding
+
+I provided in-depth analyses and summaries of customer data that went beyond standard expectations. I not only resolved anomalies and validation errors efficiently but also delivered actionable insights and process improvement suggestions to both customers and internal teams. I led the knowledge transfer of PQDR and SDR reports to the BAEO team, guiding them through complex data interpretation and validation. My proactive involvement in improving report accuracy, clarity, and performance positioned me as a go-to resource for data analytics support across multiple teams.
+
+⸻
+
+3. Effective Oral and Written Communications – Outstanding
+
+I demonstrated strong communication across all levels of the organization. I presented the Skill Query Training Tool (SQATT) directly to leadership, including the Director and Deputy Commander, showcasing its capabilities and future impact across DLA. I regularly coordinated with cross-functional teams such as BAEO, BP, and J6 (IT) to resolve issues and implement automation solutions. My ability to explain technical concepts clearly, respond promptly to inquiries, and facilitate collaboration contributed to multiple successful project outcomes and strengthened interdepartmental partnerships.
+
+⸻
+
+4. Support Audit Sustainment & Records Management – Outstanding
+
+I ensured audit continuity and records accuracy through diligent oversight and timely execution of essential reports during critical staff absences. I maintained proper documentation, shared knowledge with peers, and ensured all data products were audit-ready. My proactive engagement in training and mentoring other teams, particularly during the BAEO transition, contributed to long-term sustainability and readiness. I handled SOPs and records management with minimal supervision, modeling accountability and excellence in data stewardship.
+
+⸻
+
+5. Knowledge & Application of Data Analytic Tools & Source Data – Outstanding
+
+This year, I developed and deployed the Skill Query Training Tool (SQATT) using React — an enterprise-level innovation that supports workforce development through targeted skill assessment and training. I successfully revived and completed two critical RPA projects (TQPQ and FRC) that had been stagnant for 3–4 years, overcoming technical and collaborative challenges where multiple developers had failed. I continuously collaborated with J6 to identify and resolve UiPath package and library issues, offering alternative solutions and significantly enhancing RPA stability. I also supported the BP team with their automation needs, applying my broad technical skillset to assist wherever needed.
