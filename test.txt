@@ -1,1 +1,0 @@
-files = Directory.GetFiles("C:\SourceFolder").OrderByDescending(Function(f) File.GetLastWriteTime(f)).Take(3).ToArray()
